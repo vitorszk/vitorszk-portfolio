@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { Container, Title, Name, Job, FadeBlock, Social, Img, TitleTransition, JobTransition } from "./styles"
+import { Container, Title, Name, Job, FadeBlock, Social, Img, TitleTransition, JobTransition, KnowledgeContainer, H1, FRONTEND, BACKEND } from "./styles"
 import GIT from "./assets/GIT.png"
 import IN from "./assets/IN.png"
 import INSTA from "./assets/INSTA.png"
@@ -45,15 +45,44 @@ const App = () => {
         <Img onClick={() => handleClickOUTLOOK()} id="Outlook" src={OUT} alt="Vitor-Outlook"></Img>
       </Social>
       <section>
-        <h1 data-aos="fade-right" data-aos-duration="2000">ABOUT ME</h1>
+        <h1 data-aos="fade-right" data-aos-duration="1500">ABOUT ME</h1>
         <blockquote
           data-aos="fade-left"
-          data-aos-duration="2000">
+          data-aos-duration="1500">
           Full-Stack Web Developer and music lover!
           <br /> Looking for opportunities to grow, as a person and professional.
           <br /> Passionate for learning!
+          <br />
+          <br />
         </blockquote>
       </section>
+      <KnowledgeContainer>
+        <H1 data-aos="fade-right" data-aos-duration="1500">KNOWLEDGE</H1>
+        <FRONTEND
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="1000">
+          <h2>Front-End</h2>
+          Development of responsive
+          <br />web applications using
+          <br />HTML, CSS, JAVASCRIPT,
+          <br />REACT, STYLED COMPONENTS
+          <br />AND UNITY TESTS WITH JEST.
+        </FRONTEND>
+        <BACKEND
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="1500"
+        >
+          <h2>Back-End</h2>
+          Development of responsive
+          <br />API creation, communicating
+          <br />with Front-end applications
+          <br />and utilizing Clean Code principles,
+          <br />NODEJS, TYPESCRIPT and MYSQL.
+        </BACKEND>
+      </KnowledgeContainer>
+
     </Container>
   );
 

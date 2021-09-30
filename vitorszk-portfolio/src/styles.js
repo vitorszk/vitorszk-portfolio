@@ -33,6 +33,15 @@ export const Container = styled.div`
 
 `
 
+export const H1 = styled.h1`
+        position: absolute;
+        top: 130vh;
+        left: 10vh;
+        font-size: 13em;
+        font-family: 'Rubik', sans-serif;
+        color: #292929;
+`
+
 export const FadeBlock = styled.div`
     background-color: white;
     position: fixed;
@@ -200,4 +209,30 @@ export const Img = styled.img`
         cursor: pointer;
         transform: scale(1.4);
     }
+`
+
+export const KnowledgeContainer = styled.div`
+    position: absolute;
+    margin-top: 100vh;
+    width: 100%;
+    z-index: 10;
+`
+export const FRONTEND = styled.div`
+        color: white;
+        position: absolute;
+        height: 50vh;
+        top: 180vh;
+        left: 30vh;
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+`
+
+export const BACKEND = styled.div`
+        color: white;
+        position: absolute;
+        height: 50vh;
+        top: 180vh;
+        right: 35vh;
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
 `
