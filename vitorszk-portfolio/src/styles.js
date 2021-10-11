@@ -124,7 +124,7 @@ export const Name = styled.div`
     color: white;
     letter-spacing: 5px;
     animation: Name 2s cubic-bezier(0, 0.1, 0.12, 0.99) 0s 1 normal forwards running ;
-    animation-delay: 1s;
+    animation-delay: 1.4s;
 
     @keyframes Name {
         from {
@@ -235,4 +235,35 @@ export const BACKEND = styled.div`
         right: 35vh;
         font-size: 2em;
         font-family: 'Montserrat', sans-serif;
+`
+
+export const EducationContainer = styled.div`
+    position: absolute;
+    margin-top: 200vh;
+    width: 100%;
+    z-index: 10;
+
+    h2 {
+        position: absolute;
+        color: white;
+        top: 180vh;
+        font-size: 2em;
+        left:45%;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    div {
+        color: white;
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        top: 190vh;
+        left:25%;
+        margin-left:auto;
+        margin-right:auto;
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+    }
 `

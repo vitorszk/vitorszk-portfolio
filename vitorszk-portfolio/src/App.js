@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { Container, Title, Name, Job, FadeBlock, Social, Img, TitleTransition, JobTransition, KnowledgeContainer, H1, FRONTEND, BACKEND } from "./styles"
+import { Container, Title, Name, Job, FadeBlock, Social, Img, TitleTransition, JobTransition, KnowledgeContainer, H1, FRONTEND, BACKEND, EducationContainer } from "./styles"
 import GIT from "./assets/GIT.png"
 import IN from "./assets/IN.png"
 import INSTA from "./assets/INSTA.png"
@@ -75,13 +75,26 @@ const App = () => {
           data-aos-delay="1500"
         >
           <h2>Back-End</h2>
-          Development of responsive
-          <br />API creation, communicating
+          Development of APIs,
+          <br />communicating
           <br />with Front-end applications
           <br />and utilizing Clean Code principles,
           <br />NODEJS, TYPESCRIPT and MYSQL.
         </BACKEND>
       </KnowledgeContainer>
+      <EducationContainer>
+        <H1>EDUCATION</H1>
+        <h2>Web Full Stack - LABENU</h2>
+        <div>
+          1000 hours Certificate of experience, during 6 months and a daily routine of 8 hours approximately. Besides the group projects, workshops and all the theoric and technical classes, 
+          the soft skills are highly praised. 
+        </div>
+        <li>
+          <ul>
+            
+          </ul>
+        </li>
+      </EducationContainer>
 
     </Container>
   );
